@@ -5,7 +5,10 @@
 
 .header {
   .columns {
-    padding: 20px !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 45px !important;
+    padding-right: 45px !important;
     vertical-align: middle;
   }
   img {
@@ -38,8 +41,6 @@
 
 .paid {
   .columns {
-    padding-left: 50px !important;
-    padding-right: 50px !important;
     padding-bottom: 0px !important;
   }
   th.small-6 {
@@ -173,5 +174,11 @@
     font-size: 13px;
     font-weight: normal;
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 616px) {
+  .header-line {
+    width: 95% !important;
   }
 }
